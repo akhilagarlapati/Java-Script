@@ -9,3 +9,4 @@ let age2=18;
 console.log(age2)
 let ename='akhi'
 console.log(ename)
+ console.log('hello world');
