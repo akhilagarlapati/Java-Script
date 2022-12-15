@@ -1,12 +1,25 @@
-const age=15;
-if(age>=18){
-    console.log('Akhila can get driving license')
-}else{
-    const yearsleft=18-age;
-    console.log(`still ${yearsleft} years left to drive`)
-}
 let age2=18;
 console.log(age2)
 let ename='akhi'
 console.log(ename)
  console.log('hello world');
+  //Arrays
+let biodata=['akki' ,22,22,2>1];
+console.log(biodata[0])
+console.log(biodata[1])
+console.log(biodata[2])
+console.log(biodata[3])
+biodata[0]='venu'
+console.log(biodata)
+//object
+let biodata1={
+    Name:'akki',
+    age:23,
+    gender:'Female',
+    job: 'Software',
+    Enemy: 'venu'
+}
+console.log(biodata1)
+biodata1.Name='venu';
+delete biodata1.Enemy
+console.log(biodata1)
