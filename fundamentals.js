@@ -23,3 +23,4 @@ console.log(biodata1)
 biodata1.Name='venu';
 delete biodata1.Enemy
 console.log(biodata1)
+//operators
