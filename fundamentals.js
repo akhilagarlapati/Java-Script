@@ -11,7 +11,7 @@ console.log(biodata[2])
 console.log(biodata[3])
 biodata[0]='venu'
 console.log(biodata)
-//object
+ //object
 let biodata1={
     Name:'akki',
     age:23,
@@ -23,4 +23,12 @@ console.log(biodata1)
 biodata1.Name='venu';
 delete biodata1.Enemy
 console.log(biodata1)
-//operators
+ //operators
+let a=1;
+let b=2;
+let c='Akki'
+console.log(a+b);
+console.log(a+c);
+
+
+
