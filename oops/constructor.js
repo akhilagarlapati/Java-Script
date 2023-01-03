@@ -6,7 +6,7 @@ class Account{
    constructor(a,b,c){
      //console.log("I AM A CONSTRUCTOR")
      this.bankId=a;
-     this.bankHolderName=b;
+     this.bankHolderName=b; 
      this.age=c;
    }
    depositAmount(amount){
