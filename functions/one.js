@@ -9,8 +9,6 @@ function outer(){
    return inner 
 
 }
-
-
 let innerRef = outer();
 innerRef();
 
