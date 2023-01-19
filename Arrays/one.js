@@ -22,7 +22,7 @@ let tips=[calcTip(bill[0]),calcTip(bill[1]),calcTip(bill[2])]
 let total=[bill[0]+tips[0],bill[1]+tips[1],bill[2]+tips[2]]
 
 function calcTip(bill){
-  return bill>=50 && bill<=300 ? bill*15/100: bill*20/100    
+  return bill>=50 && bill<=300 ? bill*15/100: bill*20/100
 
 }
 

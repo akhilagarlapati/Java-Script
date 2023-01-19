@@ -101,7 +101,7 @@ let employees=[{"id":1,"first_name":"Georgeanna","email":"gbuddock0@behance.net"
 function displayData(){
     let row=''
 for(emp of employees){
-  row=row + `<tr><td>${emp.id}</td>
+  row=row+ `<tr><td>${emp.id}</td>
    <td>${emp.first_name}</td>
    <td>${emp.email}</td>
    </tr>`
