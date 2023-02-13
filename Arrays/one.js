@@ -17,7 +17,7 @@
 // actually be the returned value of a function! So you can just call a function as array
 // values (so don't store the tip values in separate variables first, but right in the new array)
 
-let bill=[125,555,44];
+/*let bill=[125,555,44];
 let tips=[calcTip(bill[0]),calcTip(bill[1]),calcTip(bill[2])]
 let total=[bill[0]+tips[0],bill[1]+tips[1],bill[2]+tips[2]]
 
@@ -26,4 +26,23 @@ function calcTip(bill){
 
 }
 
-console.log(bill,tips,total)
+console.log(bill,tips,total)*/
+
+//const movements=[200,450,-400,300,-600];
+//const euroToUsd=1.1;
+//const move=[]
+
+ //move=movements.map(mov =>mov*euroToUsd)
+//console.log(move)
+
+//filter method
+
+// const withdrawls= movements.filter(function(mov){
+//      return mov<0
+// })
+// console.log(withdrawls);
+
+// arr=[1,2,3]
+// arr2=[]
+// let arpush=arr2.push(arr)
+// console.log(arr2)
